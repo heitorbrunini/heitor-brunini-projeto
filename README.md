@@ -1,40 +1,43 @@
 # Projeto de Estatística Aplicada
 
 ## 🧑‍💻 Autores  
-- Nome 1 (matrícula) - email  
-- Nome 2 (matrícula) - email  
-- Nome 3 (matrícula) - email  
-
+- Heitor Brunini Aráujo Barbosa (202011250041) - heitor.brunini@academico.ifpb.edu.br
+    
 ## 🎯 Tema e Motivação  
-Descreva em até dois parágrafos o tema que será investigado no projeto e a motivação da equipe para essa escolha.  
-Explique por que esse tema é relevante ou interessante do ponto de vista estatístico ou social.
+Este projeto tem como foco a análise da apreensão de armas no estado do Rio de Janeiro, com base nos dados mensais disponibilizados pelo Instituto de Segurança Pública (ISP-RJ). A violência armada é um dos principais desafios enfrentados pela sociedade fluminense, e compreender padrões e variações na apreensão de armas pode oferecer insights valiosos sobre a eficácia de políticas públicas e operações policiais.
+
+A motivação da equipe surge do desejo de entender melhor como e quando ocorrem as maiores apreensões, identificar tendências temporais ou sazonais, além de investigar possíveis correlações com regiões específicas. Esses dados são relevantes do ponto de vista estatístico e social, pois impactam diretamente a segurança da população e ajudam na formulação de estratégias de prevenção à criminalidade.
 
 ## 📊 Conjunto de Dados Selecionado  
 - **Nome do conjunto de dados:**  
-  (Exemplo: "World Happiness Report", "ENEM 2023", "IBGE - PNAD Contínua", "Kaggle - Netflix Movies", etc.)
+  Apreensões de Armas - Estatísticas de Segurança Pública do Rio de Janeiro
 
 - **Fonte:**  
-  (Link ou citação da base de dados)
+  [Instituto de Segurança Pública do Rio de Janeiro (ISP-RJ)](https://www.isp.rj.gov.br/)
+  [Base de dados](https://basedosdados.org/#theme)
 
 - **Descrição breve:**  
-  Explique o que representa esse conjunto de dados, qual o escopo (temporal, geográfico, etc.), quais as principais variáveis presentes e o motivo pelo qual ele foi escolhido.  
+  O conjunto de dados contém informações mensais sobre apreensões de diferentes tipos de armas (como pistolas, revólveres, fuzis, espingardas etc.) realizadas em diferentes municípios do estado do Rio de Janeiro, ao longo de vários anos. As principais variáveis incluem o tipo de arma, data da apreensão (mês/ano), e local (município). O escopo geográfico cobre todo o estado e o escopo temporal se estende por vários anos consecutivos.
 
 - **Justificativa para a escolha:**  
-  Indique por que esse conjunto de dados permite análises estatísticas interessantes e como ele pode responder a questões relevantes.
+  Este conjunto de dados permite realizar análises estatísticas descritivas e inferenciais sobre segurança pública, oferecendo a oportunidade de observar padrões temporais, comparar municípios, e levantar hipóteses sobre o impacto de políticas públicas. Ele também contribui para debates sociais relevantes sobre violência e controle de armas.
 
 ---
 
 ## ❓ Perguntas ou Hipóteses  
-*Começar a planejar com perguntas de Estatística Descritiva*  
-Liste aqui as perguntas de pesquisa ou hipóteses estatísticas que o grupo pretende investigar com base nos dados.
+- Qual foi o tipo de arma mais apreendido ao longo dos anos?  
+- Existem tendências sazonais (por mês ou trimestre) nas apreensões de armas?  
+- Quais municípios concentram a maior quantidade de apreensões?  
+- Houve aumento ou redução significativa no total de armas apreendidas ao longo dos anos?  
+- A apreensão de fuzis tem aumentado proporcionalmente em relação a outros tipos de armas?  
 
 ## 🔍 Metodologia  
 *A preencher na próxima etapa.*  
-Indique quais técnicas estatísticas serão utilizadas (análise exploratória, testes, correlações, modelos, etc.).
+Serão utilizadas técnicas de estatística descritiva (médias, medianas, modas, gráficos de tendência, histogramas), além de análise de séries temporais e possíveis testes de hipóteses para comparação de médias entre períodos.
 
 ## 🛠️ Ferramentas Utilizadas  
 *A preencher na próxima etapa.*  
-Quais linguagens, bibliotecas ou softwares serão utilizados no projeto.
+Python (pandas, matplotlib, seaborn), Jupyter Notebook, LibreOffice Calc ou Excel (para exploração inicial), Google Colab (opcional).
 
 ## 📈 Resultados  
 *A preencher após as análises.*  
@@ -46,7 +49,6 @@ Síntese dos aprendizados e implicações das análises realizadas.
 
 ## ⚠️ Limitações e Trabalhos Futuros  
 *A preencher no final do projeto.*  
-Quais foram as limitações do estudo e o que poderia ser feito com mais tempo ou dados adicionais.
+Quais foram as limitações do estudo e o que poderia ser feito com mais tempo ou dados adicionais (ex.: cruzamento com dados de violência letal ou operações policiais).
 
 ---
-
